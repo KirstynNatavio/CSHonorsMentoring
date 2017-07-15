@@ -116,12 +116,12 @@ HEADER
 
 .top-nav-collapse {
     padding: 0; 
-    background: rgba(64,75,97, 0.9);
+    background: rgba(0,141,201, 0.9);
 }
 
 .logo-dec
 {
-    color: #be9e21;
+    color: #1CEDC7;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -152,12 +152,12 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #be9e21;
+    color: #1CEDC7;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #be9e21;
+    color: #1CEDC7;
 }
 .banner-info
 {
@@ -206,17 +206,17 @@ h2.bnr-sub-title
 
 .btn-download
 {
-    background-color: #be9e21;
+    background-color: #1CEDC7;
 }
 .btn-more, .btn-more:focus
 {
     margin-left: 15px;
-    border: 1px solid #be9e21;
-    color: #be9e21;
+    border: 1px solid #1CEDC7;
+    color: #1CEDC7;
 }
 
 .btn-more:hover {
-    background: #be9e21;
+    background: #1CEDC7;
     color: #fff;
 }
 
@@ -254,7 +254,7 @@ features
     border-top: 0px;
     height: 3px;
     width: 40px;
-    background-color: #BE9E21;
+    background-color: #1CEDC7;
 }
 .wrap-item h3 {
     font-size: 24px;
@@ -345,7 +345,7 @@ ul.service-list li i
 }
 .service-item a
 {
-    color: #be9e21;
+    color: #1CEDC7;
 }
 .mr-btn-15
 {
@@ -404,7 +404,7 @@ ul.service-list li i
     width:100%;
     height:100%;
     padding: 59px 30px;
-    background-color: #BE9E21;
+    background-color: rgba(0, 141, 201, 0.9);
     backface-visibility:hidden;
     -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);
@@ -561,15 +561,15 @@ contact
 ***********************************/
 #contact
 {
-    background-color: rgb(73, 84, 105);
+    background-color: rgba(0,141,201, 0.9);
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
     background-color: transparent;
     border-radius: 60px;
-    color: #be9e21;
+    color: #1CEDC7;
     font-weight: 400;
-    border: 1px solid #be9e21;
+    border: 1px solid #1CEDC7;
     font-size: 14px;
     padding: 6px 20px;
 }
@@ -577,11 +577,11 @@ contact
 {
     background-color: transparent;
     border-radius: 0px;
-    color: #be9e21 !important;
-    border-color: #be9e21;
+    color: #1CEDC7 !important;
+    border-color: #1CEDC7;
 }
 .form-control:focus {
-    border-color: #be9e21;
+    border-color: #1CEDC7;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
@@ -628,7 +628,7 @@ contact
 }
 .loction-info p i
 {
-    color: #be9e21;
+    color: #1CEDC7;
 }
 /***********************************
 ************************************
@@ -646,7 +646,7 @@ contact
     width: 42px;
     height: 42px;
     color: #ffffff;
-    background: #be9e21;
+    background: #1CEDC7;
     font-size: 14px;
     line-height: 42px;
     text-align: center;
@@ -659,7 +659,7 @@ contact
     background-color: #fff;
 }
 #footer a{
-    color: #be9e21;
+    color: #1CEDC7;
     font-weight: 400;
 }
 /***********************************
