@@ -119,6 +119,11 @@ HEADER
     background: rgba(0,141,201, 0.9);
 }
 
+ul {
+    list-style-type: circle;
+    line-height: 25px;
+
+}
 .logo-dec
 {
     color: #1CEDC7;
@@ -134,7 +139,7 @@ HEADER
 }
 .navbar-brand {
     padding: 0px;
-    font-size: 24px;
+    font-size: 50px;
     text-transform: uppercase;
     padding: 15px 0px;
     margin-top: 6px;
