@@ -226,6 +226,11 @@ h2.bnr-sub-title
     color: #fff;
 }
 
+.center {
+    width: 100%;
+    margin: auto;
+}
+
 .overlay-detail a i{
    text-align: center;
    position: absolute;
@@ -820,7 +825,7 @@ body{
     font-size: 18px;
 }
 .gettingjobdone {
-    font-size: 28px;
+    font-size: 20px;
 }
 .sub-title {
     font-size: 15px;
