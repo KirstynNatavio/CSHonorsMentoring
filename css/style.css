@@ -104,7 +104,7 @@ HEADER
 {
 }
 .navbar-default {
-    background-color: transparent;
+    background: transparent;
     border:0px;
     padding: 20px 0; 
     transition: all 0.3s;
@@ -140,7 +140,7 @@ ul {
 }
 .navbar-brand {
     padding: 0px;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     padding: 15px 0px;
     margin-top: 6px;
@@ -243,27 +243,19 @@ h2.bnr-sub-title
 features
 ************************************
 ***********************************/
-#mainidea {
-    background-color: #FF7E79;
-    color: white;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
+.highlight {
+    color: rgba(0,141,201, 0.9);
 }
 
 
 #companies {
-    background-color: green;
+    background-color: rgba(0,141,201, 0.9);
     color: white;
 }
 
-#whatwedo {
-    background-color: #A67DC1; 
-    color: white;
-}
 
 #blog {
-    background-color: #ffa64d;
+    background-color: rgba(0,141,201, 0.9);
     color: white;
 }
 
@@ -272,7 +264,6 @@ features
     font-family: 'Fira Sans', sans-serif;
     font-size: 35px;
     text-transform: uppercase;
-    color: white;
 }
 
 .content-section-a {
@@ -322,10 +313,7 @@ features
     margin: 25px 0px;
     line-height: 1.7;
 }
-#service
-{
-    background-color: #F3F4F8;
-}
+
 ul.service-list li i
 {
     color: #002F2F;
@@ -521,12 +509,14 @@ TESTIMONIAL
 ***********************************/
 #testimonial
 {
-    background: url('../img/bg.jpg') no-repeat;
+   /* background: url('../img/bg.jpg') no-repeat;*/
+   background-color: white;
     background-size: cover;
     min-height: 390px;
 }
 .bg-testicolor{
-    background-color: RGBA(0, 141, 201, 0.5);
+    /*background-color: rgba(0, 141, 201, 0.6);*/
+    background-color: white;
     min-height: 390px;
 }
 .white
@@ -536,7 +526,7 @@ TESTIMONIAL
 .testimonial-item ul li blockquote {
     font-size: 18px;
     line-height: 32px;
-    color: #fff;
+    color: #67696c;
     font-weight: 300;
     text-shadow: 1px 1px 2px #333;
     text-align: center;
@@ -549,7 +539,7 @@ TESTIMONIAL
 }
 .testimonial-item ul li  small {
     font-size: 16px;
-    color: #fff;
+    color: #67696c;
     font-weight: 400;
     text-shadow: 1px 1px 2px #333;
     text-align: center;
@@ -572,7 +562,7 @@ TESTIMONIAL
     font-weight: 300;
     font-size: 3em;
     font-family: Georgia, serif;
-    color: #ccc;
+    color: #000;
     top: 62%;
 }
 .testimonial-item ul li blockquote::after {
