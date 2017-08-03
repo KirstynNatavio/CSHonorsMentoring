@@ -483,17 +483,8 @@ COMPANIES
 .company{
   display:flex;
   margin: 20px;
-  background-color: transparent;
-  /* border: 2px solid white; */
-  border-radius: 3px;
-  -webkit-filter: brightness(0) invert(1);
   width: 210px;
   height:60px;
-}
-
-.company:hover{
-  -webkit-filter: none;
-  /* rbackground-color: white; */
 }
 
 .company img {
