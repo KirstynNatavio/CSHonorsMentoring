@@ -249,8 +249,7 @@ features
 
 
 #companies {
-    background-color: rgba(0,141,201, 0.9);
-    color: white;
+    background-color: white;
 }
 
 
@@ -533,7 +532,7 @@ TESTIMONIAL
 }
 #testimonial .commant .quote i {
   font-size: 30px;
-  color: #82bc00;
+  color: #1CEDC7;
   line-height: 65px;
 }
 #testimonial .commant .info {
@@ -567,7 +566,7 @@ TESTIMONIAL
   background-color: #ffffff;
 }
 #testimonial .carousel-indicators .active {
-  background-color: #82bc00;
+  background-color: #1CEDC7;
   border: none;
 }
 
@@ -612,6 +611,10 @@ Blog
     margin-top: 15px;
     display: inline-block;
 }
+.center-img {
+  display: block;
+  margin: auto;
+}
 .blog-img
 {
     position: relative;
@@ -634,6 +637,9 @@ Blog
     -ms-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
+}
+.blog-info h2 {
+  text-align: center;
 }
 /***********************************
 ************************************
