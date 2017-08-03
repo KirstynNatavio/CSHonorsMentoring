@@ -649,6 +649,7 @@ contact
 #contact
 {
     background-color: rgba(0,141,201, 0.9);
+    color: white;
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
@@ -716,6 +717,19 @@ contact
 .loction-info p i
 {
     color: #1CEDC7;
+}
+/***********************************
+************************************
+Our History
+************************************
+***********************************/
+#service {
+  background: url('../img/history-bg.jpg') no-repeat fixed;
+  background-size: 100%;
+}
+#service .commant {
+  background: rgba(54, 74, 86, 0.9);
+  color: white;
 }
 /***********************************
 ************************************
