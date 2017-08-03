@@ -498,68 +498,84 @@ COMPANIES
 TESTIMONIAL
 ************************************
 ***********************************/
-#testimonial
-{
-   /* background: url('../img/bg.jpg') no-repeat;*/
-   background-color: white;
-    background-size: cover;
-    min-height: 390px;
+#testimonial {
+  background: url(../img/bg.png);
+  background-size: cover;
+  color: #ffffff;
 }
-.bg-testicolor{
-    /*background-color: rgba(0, 141, 201, 0.6);*/
-    background-color: white;
-    min-height: 390px;
+#testimonial .section-title {
+  color: #ffffff;
 }
-.white
-{
-    color: #fff !important;
+#testimonial blockquote {
+  border-left: none;
+  margin: 0;
 }
-.testimonial-item ul li blockquote {
-    font-size: 18px;
-    line-height: 32px;
-    color: #67696c;
-    font-weight: 300;
-    text-shadow: 1px 1px 2px #333;
-    text-align: center;
-    display: inline-block;
+#testimonial .commant {
+  float: left;
+  background: rgba(54, 74, 86, 0.9);
+  margin: 0 90px 0 100px;
+}
+#testimonial .commant .claint {
+  width: 270px;
+  height: 270px;
+  margin-left: -15px;
+  position: relative;
+}
+#testimonial .commant .quote {
+  background: #ffffff;
+  width: 64px;
+  position: absolute;
+  top: 12%;
+  right: -67px;
+  height: 64px;
+  border-radius: 50%;
+  text-align: center;
+}
+#testimonial .commant .quote i {
+  font-size: 30px;
+  color: #82bc00;
+  line-height: 65px;
+}
+#testimonial .commant .info {
+  padding: 60px 60px  0px 60px;
+}
+#testimonial .commant .info p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+  text-align: justify;
+  padding-bottom: 32px;
+}
+#testimonial .commant .info h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+#testimonial .commant .info h5 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#testimonial .carousel-indicators {
+  bottom: -50px;
+}
+#testimonial .carousel-indicators li {
+  border-radius: 0;
+  border: none;
+  background-color: #ffffff;
+}
+#testimonial .carousel-indicators .active {
+  background-color: #82bc00;
+  border: none;
+}
+
+#testimonial img {
     width: 100%;
-    margin: 20px 0;
-    padding: 0 80px;
-    position: relative;
-    border: 0;
+    height: 100%
 }
-.testimonial-item ul li  small {
-    font-size: 16px;
-    color: #67696c;
-    font-weight: 400;
-    text-shadow: 1px 1px 2px #333;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-}
-.bx-viewport
-{
-    height: 235px !important;
-    background-color: transparent !important;
-    border: 0px none !important;
-    box-shadow: none !important;
-}
-.testimonial-item ul li blockquote::before {
-    content: '“';
-    left: 30px;
-}
-.testimonial-item ul li blockquote::before, .testimonial-item ul li blockquote::after {
-    position: absolute;
-    font-weight: 300;
-    font-size: 3em;
-    font-family: Georgia, serif;
-    color: #000;
-    top: 62%;
-}
-.testimonial-item ul li blockquote::after {
-    content: '”';
-    right: 30px;
-}
+/* Testimonial Section End */
 /***********************************
 ************************************
 Blog
