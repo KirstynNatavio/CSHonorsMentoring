@@ -4,6 +4,10 @@
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
 */
+section {
+  width: 100%;
+}
+
 
 body {
 	line-height: 1.4;
@@ -95,6 +99,7 @@ HEADER
     background-size: cover;
     min-height: 650px;
     position: relative;
+    width: 100%;
 }
 .bg-color
 {
@@ -724,7 +729,7 @@ Our History
 ************************************
 ***********************************/
 #service {
-  background: url('../img/history-bg.jpg') no-repeat fixed;
+  background: url('../img/history-bg.png') no-repeat fixed;
   background-size: 100%;
 }
 #service .commant {
