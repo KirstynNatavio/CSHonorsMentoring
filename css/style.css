@@ -253,7 +253,7 @@ features
 }
 
 .highlight {
-    color: rgba(0,141,201, 0.9);
+    color: #B1B5FE;
 }
 
 
@@ -263,7 +263,7 @@ features
 
 
 #blog {
-    background-color: rgba(0,141,201, 0.9);
+    background-color: #B1B5FE;
     color: white;
 }
 
