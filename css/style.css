@@ -248,6 +248,10 @@ h2.bnr-sub-title
 features
 ************************************
 ***********************************/
+.unbold {
+  font-weight: normal;
+}
+
 .highlight {
     color: rgba(0,141,201, 0.9);
 }
