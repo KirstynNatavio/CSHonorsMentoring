@@ -737,7 +737,7 @@ Our History
 ************************************
 ***********************************/
 #service {
-  background: url('../img/history-bg.png') no-repeat fixed;
+  background: url('../img/history-bg.png');
   background-size: cover;
 }
 #service .commant {
