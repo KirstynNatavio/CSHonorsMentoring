@@ -101,9 +101,9 @@ HEADER
     -o-background-size: cover;
     background-size: cover;
     color: #ffffff;
-    min-height: 650px;
+    /*min-height: 650px;
     position: relative;
-    width: 100%;
+    width: 100%;*/
 }
 .bg-color
 {
@@ -738,7 +738,7 @@ Our History
 ***********************************/
 #service {
   background: url('../img/history-bg.png') no-repeat fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 #service .commant {
   background: rgba(54, 74, 86, 0.9);
@@ -831,6 +831,10 @@ Responsive media queries
 }
 }
 @media (min-width: 20px) and (max-width: 450px) {
+#header {
+  background: url(../img/websitePic.png) no-repeat left center fixed;
+}
+
 .navbar-default .navbar-brand {
     padding-left: 16px;
     margin-top: 0px;
