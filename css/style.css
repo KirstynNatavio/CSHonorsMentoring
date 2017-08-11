@@ -101,6 +101,9 @@ HEADER
     -o-background-size: cover;
     background-size: cover;
     color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    display: block;
     /*min-height: 650px;
     position: relative;
     width: 100%;*/
