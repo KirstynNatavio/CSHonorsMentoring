@@ -95,8 +95,12 @@ HEADER
 ***********************************/
 
 .header{
-    background: url('../img/websitePic.png') no-repeat fixed;
+    background: url('../img/websitePic.png') no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    color: #ffffff;
     min-height: 650px;
     position: relative;
     width: 100%;
@@ -552,7 +556,7 @@ TESTIMONIAL
   color: #ffffff;
   font-weight: 400;
   font-style: italic;
-  text-align: justify;
+  text-align: left;
   padding-bottom: 32px;
 }
 #testimonial .commant .info h4 {
@@ -734,7 +738,7 @@ Our History
 ***********************************/
 #service {
   background: url('../img/history-bg.png') no-repeat fixed;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 #service .commant {
   background: rgba(54, 74, 86, 0.9);
