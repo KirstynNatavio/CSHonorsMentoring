@@ -832,7 +832,7 @@ Responsive media queries
 }
 @media (min-width: 20px) and (max-width: 450px) {
 #header {
-  background: url(../img/websitePic.png) no-repeat left center fixed;
+  background: url('../img/websitePic.png') no-repeat left center fixed;
 }
 
 .navbar-default .navbar-brand {
