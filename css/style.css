@@ -815,6 +815,9 @@ Responsive media queries
 ************************************
 ***********************************/
 @media (min-width: 768px) and (max-width: 980px) {
+  #header {
+    background: url('../img/websitePic.png') no-repeat left center fixed;
+  }
     .service-item, .blog-sec, .wrap-item, .loction-info{
     margin-bottom: 15px;
 }
@@ -826,6 +829,9 @@ Responsive media queries
 }
 }
 @media (min-width: 451px) and (max-width: 767px) {
+    #header {
+      background: url('../img/websitePic.png') no-repeat left center fixed;
+    }
     .service-item, .blog-sec, .wrap-item, .loction-info{
     margin-bottom: 15px;
 }
